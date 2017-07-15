@@ -9,7 +9,8 @@ module.exports = {
     },
     devServer: {
         port: 8081,
-        contentBase: './public'
+        contentBase: './public',
+        historyApiFallback: true
     },
     resolve: {
         extensions: ['.js', '.jsx'],
